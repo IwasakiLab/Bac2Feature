@@ -1,2 +1,2 @@
 # Bac2TheFeature
-Write a description about the project
+What is written in this file will be displaied in the main Git page
