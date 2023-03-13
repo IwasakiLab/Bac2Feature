@@ -1,2 +1,2 @@
 # Bac2TheFeature
-What is written in this file will be displaied in the main Git page
+What is written in this file will be displayed in the main Git page
