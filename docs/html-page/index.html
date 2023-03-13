@@ -82,7 +82,7 @@
         
         <div class="px-3">
         
-            <p class="lead"><strong>Write short description in here...</strong></p>
+            <p class="lead"><strong>Write a short description in here...</strong></p>
         
             <blockquote class="blockquote text-center">
                 <p>For more details, and for citations, refer to the papers below:</p>
@@ -133,17 +133,17 @@
         
             <div class="p-0 mx-0 my-1 shadow-4 rounded-3">
                 <div class="col-lg-12">
-                    <a href="https://pypi.org/project/sonicparanoid/" class="btn btn-lg border-dark-subtle" role="button">
+                    <a href="#" class="btn btn-lg border-dark-subtle" role="button">
                         <img src="assets/python.svg" height="35"> Get it from PyPI
                     </a>
         
-                    <a href="https://github.com/IwasakiLab/Bac2Feature" class="btn btn-lg border-dark-subtle"
+                    <a href="https://github.com/IwasakiLab/Bac2Feature" target="_blank" class="btn btn-lg border-dark-subtle"
                         role="button">Source
                         Code
                         <img src="assets/github-mark.svg" height="35">
                     </a>
         
-                    <a href="https://anaconda.org/bioconda/sonicparanoid" class="btn btn-lg border-dark-subtle"
+                    <a href="#" target="_blank" class="btn btn-lg border-dark-subtle"
                         role="button">Get it
                         from
                         Bioconda
@@ -496,7 +496,7 @@
                     <h5 class="card-header text-dark bg-info text-center">Hardware requirements</h5>
                     <div class="card-body text-left">
                         <!-- <h5 class="card-title">Special title treatment</h5> -->
-                        <p class="card-text">For the local installable version of B2F.</p>
+                        <p class="card-text">For the installable version of B2F.</p>
                     </div>
                 </div>
             </div>
@@ -769,12 +769,13 @@
 
                     <div class="card">
                         <h5 class="card-header text-dark bg-light text-center">
-                            Input format, proteomes and proteins naming
+                            Input format (adjust as needed)
                         </h5>
             
                         <div class="card-body text-start">
                         
                             <p class="card-text">
+                                Change this content as needed... <br><br>
                                 Valid input files must contain protein sequences in the <a
                                     href="https://en.wikipedia.org/wiki/FASTA_format">FASTA format</a>.
                                 Each FASTA file should have a unique name, and must be different in content from all the others.
@@ -938,14 +939,16 @@
     <div class="container" id="output_tabs">
 
         <h3 class="display-6 text-center">
-            <img src="assets/ortholog-group-bee.svg" height="45">
-            Output
-            <img src="assets/ortholog-group-bee.svg" height="45" class="ps-1">
+
+            <i class="bi bi-box-arrow-left" style="font-size: 30px;"></i> Output 
+            <i class="bi-box-arrow-right" style="font-size: 30px;"></i>
         </h3>
 
         <div class="row g-1 py-1">
 
             <p class="text-justify">
+                Below you find other examples of the differnt output formats...
+
                 At each execution SonicParanoid stores the execution information and results in a directory named <kbd>/output/runs/my_project/</kbd> where <kbd>my_project</kbd>, can be optionally set using the <kbd>--project-id</kbd> parameter.<br>
                 For example, given the following execution of SonicParanoid
                 <div class="list-group mt-0 mb-2">
@@ -1180,6 +1183,9 @@
         </h3>
 
         <p class="card-text">
+            <kbd>@fujiyoshi</kbd>: below you can find an example of ebedded accordion.
+            In the SP2 web-page it was very useful to compless the otherwise lenghty command parameter section.
+            <br><br>
             You can list all the available parameters by typing <kbd>sonicparanoid --help</kbd> in the command line.
             <br>
             Following is a list of SonicParanoid's command line parameters and their usage:
@@ -1774,28 +1780,23 @@
             <!--SonicParanoid Links-->
             <div class="col">
                 <div class="card">
-                    <h5 class="card-header text-dark bg-info text-center">Links about SonicParanoid</h5>
+                    <h5 class="card-header text-dark bg-info text-center">Links about Bac2Feature</h5>
                     <div class="card-body">
                         <p class="card-text">
 
-                            <a class="btn" href="https://pypi.org/project/sonicparanoid" target="_blank">
+                            <a class="btn" href="#" target="_blank">
                                 <img src="assets/python.svg" height="28">
                                 Download the python package from PyPI
                             </a>
                             <br>
-                            <a class="btn" href="https://gitlab.com/salvo981/sonicparanoid2" target="_blank">
-                                <img src="assets/GitLab_logo_head_2023.svg" height="28">
-                                Source code GitLab
+                            <a class="btn" href="https://github.com/IwasakiLab/Bac2Feature" target="_blank">
+                                <img src="assets/github-mark.png" height="28">
+                                Source code GitHub
                             </a>
                             <br>
-                            <a class="btn" href="https://en.wikipedia.org/wiki/SonicParanoid" target="_blank">
-                                <img src="assets/Wikipedia-logo-v2.svg" height="28">
-                                SonicParanoid on Wikipedia
-                            </a>
-                            <br>
-                            <a class="btn" href="https://orthology.benchmarkservice.org/proxy/results/2020" target="_blank">
-                                <i class="bi bi-bar-chart-line" style="font-size: 25px;"></i>
-                                Benchmark results from the Quest for Orthologs
+                            <a class="btn" href="#" target="_blank">
+                                <i class="bi bi-journal-richtext" style="font-size: 28px;"></i>
+                                Paper describing B2F
                             </a>
 
                         </p>
@@ -1806,21 +1807,14 @@
             <!--Orthology Links-->
             <div class="col">
                 <div class="card">
-                    <h5 class="card-header text-dark bg-info text-center">Links about Orthology</h5>
+                    <h5 class="card-header text-dark bg-info text-center">Links about #ResearchFiled of B2F</h5>
                     <div class="card-body">
                         <p class="card-text">
+                            This section might contain links about the fields related to B2F.
 
-                            <a class="btn" href="https://en.wikipedia.org/wiki/Sequence_homology#Orthology" target="_blank">
+                            <a class="btn" href="https://en.wikipedia.org/wiki/Bioinformatics" target="_blank">
                                 <img src="assets/Wikipedia-logo-v2.svg" height="28">
-                                Orthology on Wikipedia
-                            </a>
-                            <a class="btn" href="https://questfororthologs.org" target="_blank">
-                                <img src="assets/QfO.svg" height="25">
-                                The Quest for Orthologs (QfO) community
-                            </a>
-                            <a class="btn" href="https://orthology.benchmarkservice.org/proxy" target="_blank">
-                                <i class="bi bi-bar-chart-line" style="font-size: 25px;"></i>
-                                Benchmarking service from the QfO community
+                                Bioinformatics on Wikipedia
                             </a>
 
                         </p>
@@ -1843,23 +1837,20 @@
             <i class="bi bi-person-vcard" style="font-size: 34px;"></i>
         </h3>
 
+        <kbd>Add as many contacts as needed...</kbd>
+
         <div class="row row-cols-auto g-1 mt-1 row-cols-md-2">
 
-            <!--contact Salvo-->
+            <!--contact Fujiyoshi-->
             <div class="col">
                 <div class="card">
-                    <h5 class="card-header text-dark bg-info text-center">Salvatore Cosentino
+                    <h5 class="card-header text-dark bg-info text-center">Fujiyoshi Masaki
                     </h5>
                     <div class="card-body">
                         <p class="card-text text-center">
-                            <a class="btn" href="mailto:salvocos@edu.k.u-tokyo.ac.jp">
+                            <a class="btn" href="mailto:fujiyoshi-masaki353@g.ecc.u-tokyo.ac.jp">
                                 <i class="bi-envelope-at" style="font-size: 20px;"></i>
-                                salvocos@edu.k.u-tokyo.ac.jp
-                            </a>
-                            <br>
-                            <a class="btn" href="mailto:salvo981@gmail.com">
-                                <i class="bi-envelope-at" style="font-size: 20px;"></i>
-                                salvo981@gmail.com
+                                fujiyoshi-masaki353@g.ecc.u-tokyo.ac.jp
                             </a>
                         </p>
                     </div>
@@ -1876,11 +1867,6 @@
                             <a class="btn" href="mailto:iwasaki@edu.k.u-tokyo.ac.jp">
                                 <i class="bi-envelope-at" style="font-size: 20px;"></i>
                                 iwasaki@edu.k.u-tokyo.ac.jp
-                            </a>
-                            <br>
-                            <a class="btn" href="http://iwasakilab.k.u-tokyo.ac.jp/eindex.html" target="_blank">
-                                <i class="bi bi-house" style="font-size: 20px;"></i>
-                                Iwasaki Lab Home Page
                             </a>
                         </p>
                     </div>
