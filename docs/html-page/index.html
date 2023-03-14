@@ -1,1 +1,1912 @@
-Update with modified design from SonicParanoid page
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bac2Feature</title>
+
+        <!-- Bottstrap on-line import -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+        <!-- Bootstrap Icons online -->
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+
+        <!-- Locally downloaded boostrap files -->
+        <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./icons-1.10.3/font/bootstrap-icons.css">
+
+    </head>
+
+    <body>
+
+
+    <!-- NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bac2Feature</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Put the links in this section-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#bac2feature_hdr">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inst_guides">Installation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inst_guides">Usage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://orthology.benchmarkservice.org/proxy/results/2020">Benchmarks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ftp.ebi.ac.uk/pub/databases/reference_proteomes/previous_releases/qfo_release-2022_02_with_updated_UP000000437">Test data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#license">License</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bac2feature_hdr">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#usage">Iwasaki Lab.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Containes rae describe in 
+    https://getbootstrap.com/docs/5.0/layout/containers/
+    -->
+
+    <div class="container" id="bac2feature_hdr">
+        <a href="http://iwasakilab.bs.s.u-tokyo.ac.jp/eindex.html">
+            <img class="img-fluid" src="assets/iwasaki_lab_header_kashiwa.png" alt="IWASAKI Lab. home-page">
+        </a>
+
+    </div>
+
+
+    <!-- Jumbotron -->
+    <div class="p-2 mx-5 my-2 shadow-4 rounded-3" style="background-color: hsl(0, 0%, 94%);">
+        <h1 class="display-2 text-center text-bold">
+            <strong>Bac2Feature</strong>
+        </h1>
+        
+        <div class="px-3">
+        
+            <p class="lead"><strong>Write a short description in here...</strong></p>
+        
+            <blockquote class="blockquote text-center">
+                <p>For more details, and for citations, refer to the papers below:</p>
+            </blockquote>
+        
+            <p class="blockquote-footer text-center">
+                You could write references in here <cite>title</cite> Journal,<br>Volume etc. ,
+                <a href="https://doi.org/10.1093/bioinformatics/bty631">https://doi.org/to_your_paper
+                </a>
+            </p>
+        
+        </div>
+
+    
+    </div>
+    <!-- Jumbotron -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-thumbnail rounded-circle border-dark" src="assets/sonicparanoid_rounded_stitch.png" width="140"
+                    height="140">
+                <h2 class="fw-normal">Info spot I</h2>
+                <p style="text-align: justify;">You might right some specific info about the service in here, which make it special when compared to other services.</p>
+            </div><!-- /.col-lg-4 -->
+        
+            <div class="col-lg-4">
+                <a href="https://orthology.benchmarkservice.org/proxy/results/2020" target="_blank">
+                    <img src="assets/qfo20-bench-public-results-2x-size-manuscript.g_std2_luca.squared.png"
+                        class="img-thumbnail rounded-circle border-dark" width="140">
+                </a>
+                <h2 class="fw-normal">Info spot II</h2>
+                <p style="text-align: justify;">The images that go inside the circles MUST be squared (for exmple 150X150 pixels). If not squared the rendering of the circles would be wrong.</p>
+            </div><!-- /.col-lg-4 -->
+        
+            <div class="col-lg-4">
+                <img src="assets/laptop_color.png" class="img-thumbnail rounded-circle border-dark" width="140" alt="usability">
+                <h2 class="fw-normal">Info spot III</h2>
+                <p style="text-align: justify;">Add or remove these "Info spots" as you please.<br>
+                    If you wish to remove this component completely (called <b>MARKETING</b>), simply remove or comment out the block <code>div class="container marketing"</code>.</p>
+            </div><!-- /.col-lg-4 -->
+        
+        </div><!-- /.row -->
+        
+        <div class="row" align="center">
+        
+            <div class="p-0 mx-0 my-1 shadow-4 rounded-3">
+                <div class="col-lg-12">
+                    <a href="#" class="btn btn-lg border-dark-subtle" role="button">
+                        <img src="assets/python.svg" height="35"> Get it from PyPI
+                    </a>
+        
+                    <a href="https://github.com/IwasakiLab/Bac2Feature" target="_blank" class="btn btn-lg border-dark-subtle"
+                        role="button">Source
+                        Code
+                        <img src="assets/github-mark.svg" height="35">
+                    </a>
+        
+                    <a href="#" target="_blank" class="btn btn-lg border-dark-subtle"
+                        role="button">Get it
+                        from
+                        Bioconda
+                        <img src="assets/logo_anaconda.png" height="35">
+                    </a>
+                </div>
+        
+            </div>
+        </div><!-- /.row -->
+        
+        
+        <div class="row" align="center">
+            <p class="text-center">
+                The buttons below contains information update live about SonicPanoid. <br>
+                If you would like to have the same for B2F just let me know and I can help you.
+            </p>
+            <div class="p-0 mx-0 my-1 shadow-4 rounded-3">
+                <img src="https://img.shields.io/pypi/pyversions/sonicparanoid?label=Python" alt="PyPI - Python Version"
+                    height="20">
+        
+                <img src="https://img.shields.io/pypi/v/sonicparanoid?label=PyPI" alt="SonicParanoid version on PyPI"
+                    height="20">
+        
+                <img src="https://img.shields.io/pypi/dm/sonicparanoid?label=PyPI%20downloads" alt="PyPI - Downloads"
+                    height="20">
+        
+                <img src="https://img.shields.io/conda/vn/bioconda/sonicparanoid?label=Bioconda" alt="Bioconda - Version"
+                    height="20">
+        
+                <img src="https://img.shields.io/conda/dn/bioconda/sonicparanoid?label=Bioconda%20downloads"
+                    alt="Bioconda - Downloads" height="20">
+        
+                <img src="https://img.shields.io/conda/l/bioconda/sonicparanoid?label=License" alt="SonicParanoid - License"
+                    height="20">
+            </div>
+        
+        </div><!-- /.row -->
+
+    <hr>
+
+    </div><!-- /.container marketing END -->
+
+    <!-- /.container extimes START -->
+    <div class="container" id="extimes">
+        <h3>Header example</h3>
+        <p>Below you can find an example of tables embedded inside tabs (pills actually).
+            <br>You could use tabs for different vesions of the interface of B2F.
+            For example, 1 tab for "paste sequence form" and one for the "batch file upload".</p>
+    
+        <nav class="nav nav-pills nav-fill">
+            <button class="nav-link active" id="extime-hpc-pill" data-bs-toggle="pill" data-bs-target="#extime-hpc-content"
+                role="tab" aria-controls="extime-hpc-content" aria-selected="true">
+                HPC Server (128 CPUs)
+            </button>
+            <button class="nav-link" id="extime-desktop-pill" data-bs-toggle="pill" data-bs-target="#extime-desktop-content"
+                role="tab" aria-controls="extime-desktop-content" aria-selected="false">Desktop computer/laptop (8
+                CPUs)</button>
+            <button class="nav-link" id="extime-datasets-pill" data-bs-toggle="pill"
+                data-bs-target="#extime-datasets-content" role="tab" aria-controls="extime-datasets-content"
+                aria-selected="false">Datasets</button>
+        </nav>
+    
+        <div class="tab-content">
+    
+            <div class="tab-pane fade show active p-3 text-center" id="extime-hpc-content">
+                <h3>Execution times in hours on a HPC server using 128 physical CPU cores.</h3>
+                <h4>QfO 2020 Dataset</h4>
+    
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Sensitivity</th>
+                            <th>Execution mode<br>(default is complete)</th>
+                            <th>Ex. time<br>(Hours)</th>
+                            <th>Orthologous relationships<br>(Million)</th>
+                            <th>Non-default<br>parameters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Complete</td>
+                            <td>0.56</td>
+                            <td>14.64</td>
+                            <td>--mode fast</td>
+                        </tr>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Graph-only</td>
+                            <td>0.23</td>
+                            <td>11.27</td>
+                            <td>--mode fast -go</td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Complete</td>
+                            <td>0.86</td>
+                            <td>15.28</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Graph-only</td>
+                            <td>0.66</td>
+                            <td>11.98</td>
+                            <td>-go</td>
+                        </tr>
+                        <tr>
+                            <td>Sensitive</td>
+                            <td>Complete</td>
+                            <td>4.36</td>
+                            <td>19.27</td>
+                            <td>--mode fast</td>
+                        </tr>
+                        <tr>
+                            <td>Sensitive</td>
+                            <td>Graph-only</td>
+                            <td>4.17</td>
+                            <td>15.65</td>
+                            <td>--mode sensitive -go</td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+                <h4>2000 Microbial MAGs</h4>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Sensitivity</th>
+                            <th>Execution mode<br>(default is complete)</th>
+                            <th>Ex. time<br>(Hours)</th>
+                            <th>Orthologous relationships<br>(Million)</th>
+                            <th>Non-default<br>parameters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Complete</td>
+                            <td>24.33</td>
+                            <td>1,692.88</td>
+                            <td>--mode fast</td>
+                        </tr>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Graph-only</td>
+                            <td>19.70</td>
+                            <td>1,233.64</td>
+                            <td>--mode fast -go</td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Complete</td>
+                            <td>37.99</td>
+                            <td>1,817.39</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Graph-only</td>
+                            <td>34.41</td>
+                            <td>1,390.97</td>
+                            <td>-go</td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+    
+                <table class="table-borderless text-start">
+                    <tbody>
+                        <tr>
+                            <td><b>Computer:</b></td>
+                            <td>High performance computing (HPC) server</td>
+                        </tr>
+                        <tr>
+                            <td><b>CPU:</b></td>
+                            <td>128 Cores @ 2.25~3.40 GHz from 2 <a
+                                    href="https://en.wikipedia.org/wiki/Epyc#Second_generation_Epyc_(Rome)">AMD EPYC 7742
+                                    (Rome)</a>
+                                sockets</td>
+                        </tr>
+                        <tr>
+                            <td><b>Memory:</b></td>
+                            <td>2 Terabytes of DDR4 shared memory</td>
+                        </tr>
+                        <tr>
+                            <td><b>Storage:</b></td>
+                            <td>Intel D3-S4610 solid-state disk</td>
+                        </tr>
+                        <tr>
+                            <td><b>OS:</b></td>
+                            <td>Ubuntu 20.04.3 LTS (Linux 5.11.0)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div><!--div extime-hpc-content END -->
+    
+            <div class="tab-pane fade p-3 text-center" id="extime-desktop-content">
+                <h3>Execution times in hours on a desktop computer with 8 physical CPU cores</h3>
+                <h4>QfO 2020 Dataset</h4>
+    
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Sensitivity</th>
+                            <th>Execution mode<br>(default is complete)</th>
+                            <th>Ex. time<br>(Hours)</th>
+                            <th>Orthologous relationships<br>(Million)</th>
+                            <th>Non-default<br>parameters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Complete</td>
+                            <td>3.08</td>
+                            <td>14.64</td>
+                            <td>--mode fast</td>
+                        </tr>
+                        <tr>
+                            <td>Fast</td>
+                            <td>Graph-only</td>
+                            <td>2.15</td>
+                            <td>11.27</td>
+                            <td>--mode fast -go</td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Complete</td>
+                            <td>6.63</td>
+                            <td>15.26</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Graph-only</td>
+                            <td>5.56</td>
+                            <td>11.98</td>
+                            <td>-go</td>
+                        </tr>
+                        <tr>
+                            <td>Sensitive</td>
+                            <td>Complete</td>
+                            <td>45.86</td>
+                            <td>19.27</td>
+                            <td>--mode fast</td>
+                        </tr>
+                        <tr>
+                            <td>Sensitive</td>
+                            <td>Graph-only</td>
+                            <td>45.49</td>
+                            <td>15.65</td>
+                            <td>--mode sensitive -go</td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+                <blockquote class="blockquote text-start">
+                    <p><b>NOTE:</b> these results are currently being updated!</p>
+                </blockquote>
+    
+                <table class="table-borderless text-start">
+                    <tbody>
+                        <tr>
+                            <td><b>Computer:</b></td>
+                            <td>Desktop computer (from 2019)</td>
+                        </tr>
+                        <tr>
+                            <td><b>CPU:</b></td>
+                            <td>8 Cores <a href="https://en.wikipedia.org/wiki/List_of_Intel_Core_i9_processors">Inter Core
+                                    i9
+                                    9900K</a> cpu @ 3.60 GHz</td>
+                        </tr>
+                        <tr>
+                            <td><b>Memory:</b></td>
+                            <td>32 Gygabytes of DDR4</td>
+                        </tr>
+                        <tr>
+                            <td><b>Storage:</b></td>
+                            <td>SK Hynix PC601 NVMe (1TB)</td>
+                        </tr>
+                        <tr>
+                            <td><b>OS:</b></td>
+                            <td>Manjaro (Sikaris 22.0.0) (Linux 6.0.8-1)</td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+            </div><!--div extime-desktop-content END -->
+
+            <div class="tab-pane fade p-3 text-center" id="extime-datasets-content">
+                <h3>Datasets used to test SonicParanoid 2</h3>
+    
+                <table class="table table-striped text-center table-hover">
+                    <thead>
+                        <tr>
+                            <th>Dataset</th>
+                            <th>Proteomes</th>
+                            <th>Eukaryotes; Prokaryotes</th>
+                            <th>Sequences (thousands)</th>
+                            <th>Required alignments</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>QfO 2020</td>
+                            <td>78</td>
+                            <td>50; 28</td>
+                            <td>984.14</td>
+                            <td>6,084</td>
+                            <td>Curated proteomes from the <a href="https://questfororthologs.org/">Quest for Orthologs</a>
+                                consortium</td>
+                        </tr>
+                        <tr>
+                            <td>2000 Microbial MAGs</td>
+                            <td>2000</td>
+                            <td>0; 2000</td>
+                            <td>5,091.98</td>
+                            <td>4,000,000</td>
+                            <td>Subset of high quality MAGs obtained from <a
+                                    href="https://doi.org/10.1038/s41587-020-0718-6">Nayfach et al. (2020)</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+            </div><!--div extime-datasets-content END -->
+    
+        </div><!--div tab-content END -->
+    
+        <hr>
+    
+    </div> <!-- container extimes END -->
+
+    <!-- /.container inst_general START -->
+    <div class="container" id="inst_general">
+    
+        <h3 class="display-6 text-center">
+            <i class="bi bi-tools" style="font-size: 30px;"></i> Installation 
+            <i class="bi bi-tools" style="font-size: 30px;"></i>
+        </h3>
+    
+        <!-- row-cols allows the floating when resizing -->
+        <div class="row row-cols-auto g-1 row-cols-md-3">
+    
+            <!--Hardware requirements-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Hardware requirements</h5>
+                    <div class="card-body text-left">
+                        <!-- <h5 class="card-title">Special title treatment</h5> -->
+                        <p class="card-text">For the installable version of B2F.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Software requirements-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Software requirements</h5>
+                    <div class="card-body">
+                        <p class="card-text">These bootstrap components are called cards and are very nice to highlight important information...
+    
+                        <ul class="list-group-item-light">
+                            <li><a href="https://www.python.org/">Python</a> 3.7 or up to version 3.9</li>
+                            <li><a href="https://gcc.gnu.org/">GNU GCC </a> compiler (version 5.0 or above)</li>
+                        </ul>
+    
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Operative systems-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Supported systems</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                        <ul class="list-group-item-info">
+                            you can insert different componenets inside the cards, which makes them very flexible...
+                            <li><a href="http://www.apple.com/macos">
+                                Apple macOS High Sierra</a> and above, using <a
+                                    href="#installation">Anaconda</a></li>
+                            <li>Linux <a href="https://www.ubuntu.com/desktop">Ubuntu</a>, <a
+                                    href="https://wwwcentos.org/">CentOS</a>/<a
+                                    href="https://www.redhat.com/en/  technologieslinux-platforms  enterprise-linux">RedHat</a>
+                                Linux, <a href="https://getfedora.org">Fedora</a>, and <a
+                                    href="https://www.manjaro.org/">Manjaro</a> (but it should work on any UNIX-based
+                                operative system).</li>
+                        </ul>
+    
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div><!-- /.row -->
+
+        <div class="row g-1 py-1">
+
+            <nav class="nav nav-pills nav-fill">
+                <button class="nav-link active" id="inst-linux-venv-pill" data-bs-toggle="pill" data-bs-target="#inst-linux-venv-content"
+                    role="tab" aria-controls="inst-linux-venv-content" aria-selected="true">
+                    <img src="assets/linux.svg" height="30">
+                    <br>
+                    Linux
+                </button>
+                <button class="nav-link" id="inst-conda-pill" data-bs-toggle="pill" data-bs-target="#inst-conda-content"
+                    role="tab" aria-controls="inst-conda-content" aria-selected="false">
+                <img src="assets/logo_anaconda.png" height="30">
+                ANACONDA
+                </button>
+            </nav>
+
+            <div class="tab-content">
+            
+                <div class="tab-pane fade show active p-0 text-center" id="inst-linux-venv-content">
+
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">Linux using a
+                            <a href="https://docs.python.org/3/library/venv.html">Python3 virtual environment</a> (No root
+                            previleges
+                            required)
+                        </h5>
+            
+                        <div class="card-body text-left">
+            
+                            <div class="alert alert-warning d-flex align-items-center py-1" role="alert">
+                                <i class="bi bi-exclamation-triangle pe-2" style="font-size: 25px;"></i>
+                                <div>
+                                    Before proceeding further make sure that GCC (ver. 5 or above) and Python3 (ver. 3.7 or up to
+                                    version
+                                    3.9) are
+                                    installed in your system.
+                                </div>
+                            </div>
+
+                            <div class="list-group">
+                                <a class="list-group-item active">Create and activate the virtual environment.</a>
+                                <a class="list-group-item list-group-item-action text-start">$ python3 -m venv sonicparanoid
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">Make sure you are using Python 3.7 or
+                                        up to
+                                        3.9</kbd>
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ source sonicparanoid/bin/activate
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">activate the virtual environment</kbd>
+                                </a>
+            
+                                <a class="list-group-item active">Install SonicParanoid</a>
+                                <a class="list-group-item list-group-item-action text-start">$ pip3 install cython==3.0.0a10
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        This will be changed when the stable version of Cython 3.0 will be released
+                                    </kbd>
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start"> $ pip3 install -U pip setuptools wheel
+                                    biopython
+                                    filetype gensim mypy numpy pandas psutil scikit-learn scipy smart-open tqdm
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ pip3 install --no-cache-dir
+                                    sonicparanoid
+                                </a>
+            
+                                <a class="list-group-item active">Test installation</a>
+                                <a class="list-group-item list-group-item-action text-start">$ sonicparanoid-get-test-data -o .
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        Retrieves the test proteomes, and creates the test directories
+                                    </kbd>
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ cd sonicparanoid_test
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ sonicparanoid -i ./test_input -o
+                                    ./test_output -p
+                                    my_first_run -t 4
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        Tests the execution on a smalltest dataset
+                                    </kbd>
+                                </a>
+
+                                <a class="list-group-item active">Deactivate the environment when you are done(optional)</a>
+                                <a class="list-group-item list-group-item-action text-start">$ deactivate
+                                </a>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                </div><!--inst-linux-venv-content END -->
+            
+                <div class="tab-pane fade p-0 text-center" id="inst-conda-content">
+            
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">Linux or MacOS using <a
+                                href="https://www.anaconda.com/">Anaconda</a> (No root previleges required)
+                        </h5>
+            
+                        <div class="card-body text-left">
+            
+                            <div class="alert alert-warning d-flex align-items-center py-1" role="alert">
+                                <i class="bi bi-exclamation-triangle-fill pe-2" style="font-size: 25px;"></i>
+                                <div>
+                                    Before proceeding further make sure ANACONDA (ver. 4.9 or above) is installed.
+                                </div>
+                            </div>
+            
+                            <div class="alert alert-info d-flex align-items-center py-1" role="alert">
+                                <i class="bi bi-info-circle-fill pe-2" style="font-size: 25px;"></i>
+                                <div>
+                                    Some users experienced problems installing SonicParanoid using Miniconda, we suggest the use of
+                                    a
+                                    full ANACONDA installation.
+                                </div>
+                            </div>
+            
+                            <div class="list-group">
+            
+                                <a class="list-group-item active">Add channels (if not previously done)</a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda config --add channels defaults
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda config --add channels bioconda
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda config --add channels
+                                    conda-forge
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda config --set channel_priority
+                                    false
+                                </a>
+            
+                                <a class="list-group-item active">Create and activate the conda environment</a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda create -n sonicparanoid
+                                    python=3.8
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        create the virtual environment
+                                    </kbd>
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda activate sonicparanoid
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        activate the conda environment
+                                    </kbd>
+                                </a>
+            
+                                <a class="list-group-item active">Install SonicParanoid</a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda install numpy filetype pandas
+                                    scipy
+                                    biopython mypy psutil scikit-learn
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda install -c bioconda
+                                    sonicparanoid
+                                </a>
+            
+                                <a class="list-group-item active">Test installation</a>
+                                <a class="list-group-item list-group-item-action text-start">$ sonicparanoid-get-test-data -o .
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        Retrieves the test proteomes, and creates the test directories
+                                    </kbd>
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ cd sonicparanoid_test
+                                </a>
+                                <a class="list-group-item list-group-item-action text-start">$ sonicparanoid -i ./test_input -o
+                                    ./test_output -p
+                                    my_first_run -t 4
+                                    <kbd class="text-white bg-info" style="font-size: 14px;">
+                                        Tests the execution on a smalltest dataset
+                                    </kbd>
+                                </a>
+            
+                                <a class="list-group-item active">Deactivate the environment when you are done(optional)</a>
+                                <a class="list-group-item list-group-item-action text-start">$ conda deactivate
+                                </a>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                </div><!--inst-conda-content END -->
+            
+            </div><!--div tab-content END -->
+
+        </div><!-- /.row -->
+
+    </div> <!-- container inst_general END -->
+
+    <hr>
+
+    <!-- /.container usage_tabs START -->
+    <div class="container" id="usage_tabs">
+
+        <h3 class="display-6 text-center">
+            <i class="bi bi-book-half" style="font-size: 30px;"></i> Usage 
+            <i class="bi bi-book-half" style="font-size: 30px;"></i>
+        </h3>
+
+        <div class="row g-1 py-1">
+
+            <nav class="nav nav-pills nav-fill">
+                <button class="nav-link active" id="usage-input-format-pill" data-bs-toggle="pill"
+                    data-bs-target="#usage-input-format-content" role="tab" aria-controls="usage-input-format-content"
+                    aria-selected="true">
+                    <img src="assets/dna-helix-96-2tones.svg" height="32">
+                    <br>
+                    Input
+                </button>
+                <button class="nav-link" id="usage-disk-requirements-pill" data-bs-toggle="pill"
+                    data-bs-target="#usage-disk-requirements-content" role="tab" aria-controls="usage-disk-requirements-content"
+                    aria-selected="false">
+                    <i class="bi bi-hdd" style="font-size: 30px;"></i>
+                    <br>
+                    Disk requirements
+                </button>
+                <button class="nav-link" id="usage-execution-example-pill" data-bs-toggle="pill"
+                    data-bs-target="#usage-execution-example-content" role="tab" aria-controls="usage-execution-example-content"
+                    aria-selected="false">
+                    <i class="bi bi-play-circle" style="font-size: 30px;"></i>
+                    <br>
+                    Execution example
+                </button>
+            </nav>
+    
+            <div class="tab-content">
+
+                <div class="tab-pane fade show active p-0 text-center" id="usage-input-format-content">
+
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Input format (adjust as needed)
+                        </h5>
+            
+                        <div class="card-body text-start">
+                        
+                            <p class="card-text">
+                                Change this content as needed... <br><br>
+                                Valid input files must contain protein sequences in the <a
+                                    href="https://en.wikipedia.org/wiki/FASTA_format">FASTA format</a>.
+                                Each FASTA file should have a unique name, and must be different in content from all the others.
+                                <br>
+                                It is good practice to keep the species names short (less than 10 letters). For example, given the species name
+                                <b>Homo_sapiens.faa</b> it would be better to rename it to <b>hsapiens</b>.
+                                Doing this would make the final output tables much easier to read.<br>
+                                The above also applies to protein names. These should be short where possible, as the final ortholog table
+                                contains these protein names multiple times and very long protein names would make the output difficult to read.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div><!--usage-input-format-content END -->
+
+                <div class="tab-pane fade p-0 text-center" id="usage-disk-requirements-content">
+                
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Disk space requirements
+                        </h5>
+                
+                        <div class="card-body text-start">
+                
+                            <p class="card-text">
+                                SonicParanoid requires about 9 Gygabytes of storage for the installation, mainly due to the size of the
+                                PFamA profile DB (~9GBytes).<br>After the installation, and only during the first execution
+                                SonicParanoid generates the profile DB from PFamA. This file requires about 9GB of disk space.<br>
+                                To further speed-up the computation of all-vs-all alignments MMseqs2 and Diamond can generate index
+                                files of the input proteome files. This can be done using the parameter <kbd>--index-db</kbd>. These
+                                index files are relatively big (about 1 Gigabyte per input proteome), but are automatically removed by
+                                SonicParanoid after the execution is completed.
+                                <br>
+                                SonicParanoid <b>automatically avoids the creation of the index files if the available storage is
+                                    lower</b> than the amount of disk space required to store the index files.
+                                <br>
+                                Using the <kbd>--index-db</kbd> parameter can result in a 5~10% speed-up for all-vs-all alignments when
+                                using MMseqs2/Diamond.
+                            </p>
+                
+                        </div>
+                
+                    </div>
+                </div><!--usage-disk-requirements-content END -->
+
+                <div class="tab-pane fade p-0 text-center" id="usage-execution-example-content">
+                
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Execution example
+                        </h5>
+                
+                        <div class="card-body text-start">
+
+                            <p class="card-text">
+                                Once installed SonicParanoid can be executed through the command line by running the program  <kbd>sonicparanoid</kbd>.
+                                <br>
+                                The command <kbd class="me-1 ms-0">sonicparanoid --help</kbd>  provides extra information on the command line parameters.
+
+                                <div class="alert alert-light d-flex align-items-center py-1 px-1" role="alert">
+                                    <kbd class="me-1 ms-0">sonicparanoid --help</kbd>  provides extra information on the command line parameters.
+                                </div>
+
+                            </p>
+
+                            <h5 class="card-title text-center">Execution example</h5>
+
+                            <p class="card-text">
+                                SonicParanoid comes with a test input set composed of 4 bacterial proteomes. To verify that SonicParanoid has been
+                                successfully installed type the following commands:
+                            
+                                <div class="list-group">
+                                    <a class="list-group-item list-group-item-action text-start">$ sonicparanoid-get-test-data -o .
+                                        <kbd class="text-white bg-info" style="font-size: 14px;">
+                                            Retrieves the test proteomes, and creates the test directories
+                                        </kbd>
+                                    </a>
+                                    <a class="list-group-item list-group-item-action text-start">
+                                        $ cd sonicparanoid_test
+                                    </a>
+                                    <a class="list-group-item list-group-item-action text-start">$ sonicparanoid -i ./test_input -o ./test_output -m
+                                        fast -t 4 --project-id my_first_run</a>
+                                </div>
+                            
+                                The last of the above commands infers the orthologous relationships among the species which proteomes in FASTA format
+                                are stored in <kbd>test_input</kbd>, using 4 CPUs in the <i>fast</i> mode, and stores the output in the directory
+                                <kbd>/test_output/runs/my_first_run</kbd>.
+                            </p>
+
+                            <h5 class="card-title text-center">Update an existing run</h5>
+
+                            <p class="card-text">
+
+                                SonicParanoid allows the update of a previously computed set of ortholog relations by adding and/or removing proteome
+                                files from the original input set.
+                                Suppose in the previous example we computed the ortholog relations amongst species <kbd>A</kbd>, <kbd>B</kbd>,
+                                <kbd>C</kbd>, and <kbd>D</kbd> and that we now want to remove <kbd>C</kbd> from the analysis.<br>
+                                This is simply done by copying <kbd>A</kbd>, <kbd>B</kbd>, and <kbd>D</kbd> into a new directory <kbd>my_new_input</kbd>
+                                (or by removing <kbd>C</kbd> from the original input directory) and use the same output directory as follows:
+
+                                <div class="list-group my-1">
+                                    <a class="list-group-item list-group-item-action text-start">
+                                        $ sonicparanoid -i ./my_new_input -o ./test_output -p my_first_run -t 4 --project-id three_species
+                                    </a>
+                                </div>
+
+                                The updated results will be stored in the <kbd>/test_output/runs/three_species</kbd> directory.
+                                <br>
+                                To add a new proteome to the analysis simply copy it to the directory containing the input files and run SonicParanoid
+                                again as above.
+                                <br>
+                                SonicParanoid will re-use the previously computed alignments and pairwise ortholog tables to minimize the required
+                                computation.
+
+                                <div class="list-group my-1">
+                                    <a class="list-group-item list-group-item-action text-start">$ sonicparanoid-get-test-data -o .
+                                        <kbd class="text-white bg-info" style="font-size: 14px;">
+                                            Retrieves the test proteomes, and creates the test directories
+                                        </kbd>
+                                    </a>
+                                    <a class="list-group-item list-group-item-action text-start">
+                                        $ cd sonicparanoid_test
+                                    </a>
+                                    <a class="list-group-item list-group-item-action text-start">$ sonicparanoid -i ./test_input -o ./test_output -m
+                                        fast -t 4 --project-id my_first_run</a>
+                                </div>
+
+                                The last of the above commands infers the orthologous relationships among the species which proteomes in FASTA format
+                                are stored in <kbd>test_input</kbd>, using 4 CPUs in the <i>fast</i> mode, and stores the output in the directory
+                                <kbd>/test_output/runs/my_first_run</kbd>.
+                                <br>
+                                In the case in which some proteome files need to be modified (e.g., add/remove sequences, or just change the file name)
+                                but we do not want to perform a complete new run, the <kbd>--update-input-names</kbd> parameter can be set when running
+                                SonicParanoid. The database and input information will be automatically updated.
+
+                                <div class="alert alert-warning d-flex align-items-center py-1" role="alert">
+                                    <i class="bi bi-exclamation-triangle pe-2" style="font-size: 25px;"></i>
+                                    <div>
+                                        <kbd>--update-input-names</kbd> is experimental in the latest version of SonicParanoid, contact the authors for
+                                        more details.
+                                    </div>
+                                </div>
+
+                            </p>
+
+                        </div>
+                
+                    </div>
+                </div><!--usage-execution-example-content END -->
+
+            </div><!--div usage-tab-content END -->
+
+        </div><!-- /.row -->
+
+    </div>    <!-- /.container usage_tabs END -->
+
+    <hr>
+
+    <!-- /.container usage_tabs START -->
+    <div class="container" id="output_tabs">
+
+        <h3 class="display-6 text-center">
+
+            <i class="bi bi-box-arrow-left" style="font-size: 30px;"></i> Output 
+            <i class="bi-box-arrow-right" style="font-size: 30px;"></i>
+        </h3>
+
+        <div class="row g-1 py-1">
+
+            <p class="text-justify">
+                Below you find other examples of the differnt output formats...
+
+                At each execution SonicParanoid stores the execution information and results in a directory named <kbd>/output/runs/my_project/</kbd> where <kbd>my_project</kbd>, can be optionally set using the <kbd>--project-id</kbd> parameter.<br>
+                For example, given the following execution of SonicParanoid
+                <div class="list-group mt-0 mb-2">
+                  <a>$ sonicparanoid -i ./my_input -o ./test_output --project-id my_first_run -t 4</a>
+                </div>
+                SonicParanoid will generate the ortholog pairs and ortholog groups from the input proteomes.
+                The output directory structure as well as the relevant result files are explained in the tabs below.
+            </p>
+
+        </div><!-- /.row -->
+
+        <div class="row g-1 mb-1">
+
+            <nav class="nav nav-pills nav-fill">
+                <button class="nav-link" id="output-structure-pill" data-bs-toggle="pill"
+                    data-bs-target="#output-structure-content" role="tab" aria-controls="output-structure-content"
+                    aria-selected="true">
+                    <img src="assets/folder_tree.svg" height="40">
+                    <br>
+                    Directory Structure
+                </button>
+                <button class="nav-link" id="output-ogs-pill" data-bs-toggle="pill"
+                data-bs-target="#output-ogs-content" role="tab" aria-controls="output-ogs-content"
+                    aria-selected="false">
+                    <img src="assets/ortholog-group-bee.svg" height="45">
+                    <br>
+                    Ortholog Groups
+                </button>
+                <button class="nav-link active" id="output-pairs-pill" data-bs-toggle="pill"
+                data-bs-target="#output-pairs-content" role="tab" aria-controls="output-pairs-content"
+                aria-selected="false">
+                <img src="assets/pairwise-relation.svg" height="40">
+                <br>
+                Pairwise Orthologs
+                </button>
+            </nav>
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade p-0 text-center" id="output-structure-content">
+
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Output directory structure
+                        </h5>
+
+                        <div class="card-body text-start">
+
+                            <h5 class="card-title text-center">Main output directory</h5>
+
+                            <p class="card-text">
+                                The output directory resulting from the above run will have the following structure:
+                            
+                                <div class="card border-primary-subtle text-dark-emphasis mb-2">
+                                    <div class="card-body">
+                                
+                                        <ul>
+                                            <li>alignments</li>
+                                            <li>arch_orthology</li>
+                                            <li>merged_tables</li>
+                                            <li>orthologs_db</li>
+                                            <li>seqs_dbs</li>
+                                            <li>runs</li>
+                                            <ul>
+                                                <li>my_first_run</li>
+                                                <ul>
+                                                    <li>run_info.txt</li>
+                                                    <li>ortholog_groups</li>
+                                                    <ul>
+                                                        <li>ortholog_groups.tsv</li>
+                                                        <li>flat.ortholog_groups.tsv</li>
+                                                        <li>single_copy.ortholog_groups.tsv</li>
+                                                        <li>not_assigned_genes.ortholog_groups.tsv</li>
+                                                        <li>overall.stats.tsv</li>
+                                                        <li>ortholog_counts_per_species.stats.tsv</li>
+                                                        <li>species_coverages_in_groups.stats.tsv</li>
+                                                    </ul>
+                                                    <li>pairwise_orthologs</li>
+                                                    <li>run_info.txt</li>
+                                                    <li>species.txt</li>
+                                                </ul>
+                                            </ul>
+                                            <li>snapshot.tsv</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            
+                                The directory <kbd>alignments</kbd> contains the computed and processed alignment files (compressed by default using
+                                <b>gzip</b>), while <kbd>orthologs_db</kbd> contains pairwise ortholog tables that could be re-used at each update
+                                run.<br>
+                                <b>These directories should never be manually modified</b>
+                                , since these are used for updating ortholog tables.
+                                <br>
+                                The directory <kbd>arch_orthology</kbd> contains most of the files related to domain-aware orthology inference
+                                (including the trained artificial neural networks), while <kbd>merged_tables</kbd> contains the merged (graph-based and
+                                domain-based) pairwise ortholog tables that could be re-used at each update run.
+                                
+                                
+                                <h5 class="card-title text-center py-1">Run Directory</h5>
+                                
+                                At each execution a main output directory is generated under <kbd>/output/runs/</kbd> (<kbd>my_first_run</kbd> in our
+                                example). This directory contains information regarding the run settings (<kbd>run_info.txt</kbd>) and input files
+                                (<kbd>species.tsv</kbd>).<br>
+                            
+                            </p>
+                        </div>
+
+                    </div>
+                </div><!--output-structure-content END -->
+
+                <div class="tab-pane fade p-0 text-center" id="output-ogs-content">
+
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Ortholog Group (OG) files
+                        </h5>
+
+                        <div class="card-body text-start">
+                        
+                            <p class="card-text">
+                                The orthologs shared among the input species are stored in the directory named <kbd>ortholog_groups</kbd> under
+                                the main run directory (<kbd>my_first_run</kbd> in our example).<br>
+                                Following are the relevant output files related to the ortholog groups:
+                        
+                                <div class="card border-primary-subtle text-dark-emphasis">
+                                    <div class="card-body ">
+                            
+                                        <ul>
+                                            <li>ortholog_groups.tsv <kbd class="text-bg-info text-white">Tab-separated table with the ortholog
+                                                    groups</kbd></li>
+                                            <li>flat.ortholog_groups.tsv <kbd class="text-bg-info text-white">Simpler table with only the gene names
+                                                    for each
+                                                    group</kbd></li>
+                                            <li>single_copy.ortholog_groups.tsv <kbd class="text-bg-info text-white">ortholog groups with a single
+                                                    ortholog for
+                                                    each species in the group</kbd></li>
+                                            <li>not_assigned_genes.ortholog_groups.tsv <kbd class="text-bg-info text-white">List of genes that could
+                                                    not be
+                                                    classified as orthologs</kbd></li>
+                                            <li>overall.stats.tsv <kbd class="text-bg-info text-white">General statistics on the predicted orthologs
+                                                    groups</kbd></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </p>
+                        
+                        </div>
+
+                    </div>
+                </div><!--output-ogs-content END -->
+
+                <div class="tab-pane fade show active p-0 text-center" id="output-pairs-content">
+                
+                    <div class="card">
+                        <h5 class="card-header text-dark bg-light text-center">
+                            Pairwise Ortholog Tables
+                        </h5>
+                
+                        <div class="card-body text-start">
+                        
+                            <p class="card-text">
+                                In addition to the ortholog groups SonicParanoid provides an ortholog table for each pair of
+                                proteomes.<br>
+                                For example, given a run with <kbd>N</kbd> input proteomes,the directory <kbd>pairwise_orthologs</kbd>
+                                (under <kbdclass="label label-default">/output/runs/my_first_run</kbd>) will contain a ortholog table
+                                    for each of the <i>N * (N - 1) / 2</i> possible proteome-proteome combinations.<br>
+                                    These tables are useful to quicky see the orthologs shared between pairs of species rather then
+                                    shared among multiple species.<br>
+                                    For example if we give in input the poteomes <kbd>1</kbd>,<kbd>2</kbd>, and <kbd>3</kbd> the
+                                    pairwise ortholog tables <kbd>1-2</kbd>, <kbd>1-3</kbd> and <kbd>2-3</kbd> will be generated and
+                                    stored under the <kbd>pairwise_orthologs</kbd> directory.<br>
+                                    The tables are stored into sub-directories named as the leftmost species name in the pair as
+                                    follows:
+                                    <br>
+                        
+                                    <div class="card border-primary-subtle text-dark-emphasis">
+                                        <div class="card-body ">
+                        
+                                            <ul>
+                                                <li>pairwise_orthologs</li>
+                                                <ul>
+                                                    <li>1</li>
+                                                    <ul>
+                                                        <li>1-2</li>
+                                                        <li>1-3</li>
+                                                    </ul>
+                                                </ul>
+                                                <ul>
+                                                    <li>2</li>
+                                                    <ul>
+                                                        <li>2-3</li>
+                                                    </ul>
+                                                </ul>
+                                            </ul>
+                        
+                                        </div>
+                                    </div>
+                        
+                            </p>
+                        
+                            <div class="alert alert-info d-flex align-items-center py-1" role="alert">
+                                <i class="bi bi-info-circle-fill pe-2" style="font-size: 25px;"></i>
+                                <div>
+                                    Some users experienced problems installing SonicParanoid using Miniconda, we suggest the use of
+                                    a
+                                    full ANACONDA installation.
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                </div><!--output-pairs-content END -->
+
+            </div><!--div output-tabs-content END -->
+
+        </div><!-- /.row -->
+
+    </div>    <!-- /.container output_tabs END -->
+
+    <hr>
+
+    <!-- /.container command-line-parameters START -->
+    <div class="container" id="command_line_parameters">
+
+        <h3 class="display-6 text-center">
+            <i class="bi bi-terminal-fill" style="font-size: 34px;"></i> Command line parameters 
+            <i class="bi bi-terminal-fill" style="font-size: 34px;"></i>
+        </h3>
+
+        <p class="card-text">
+            <kbd>@fujiyoshi</kbd>: below you can find an example of ebedded accordion.
+            In the SP2 web-page it was very useful to compless the otherwise lenghty command parameter section.
+            <br><br>
+            You can list all the available parameters by typing <kbd>sonicparanoid --help</kbd> in the command line.
+            <br>
+            Following is a list of SonicParanoid's command line parameters and their usage:
+        </p>
+
+        <!-- The following example of nested accordion was adapted from the one in -->
+        <!-- https://stackoverflow.com/questions/71705001/bootstrap-5-nested-accordion-how-to-open-top-level-accordion-when-opening-nested -->
+
+        <!-- command-line-parameters-accordion START -->
+        <div class="accordion" id="cli-accordion">
+
+            <!-- mandatory arguments START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="mandatory-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mandatory-collapse" aria-expanded="true" aria-controls="mandatory-collapse">
+                        Mandatory parameters
+                    </button>
+                </h2>
+                <div id="mandatory-collapse" class="accordion-collapse collapse" aria-labelledby="mandatory-hdr"
+                    data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="mandatory-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="mandatory-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#mandatory-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="mandatory-collapse">
+                                        -i INPUT_DIRECTORY, --input-directory INPUT_DIRECTORY
+                                    </button>
+                                </h2>
+                                <div id="mandatory-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="mandatory-cmd-1-hdr" data-bs-parent="#mandatory-collapse">
+                                    <div class="accordion-body">
+                                        Directory containing the proteomes (in FASTA format) of the species to be analyzed.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="mandatory-cmd-2-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#mandatory-cmd-2-collapse" aria-expanded="true"
+                                        aria-controls="mandatory-collapse">
+                                        -o OUTPUT_DIRECTORY, --output-directory OUTPUT_DIRECTORY
+                                    </button>
+                                </h2>
+                                <div id="mandatory-cmd-2-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="mandatory-cmd-2-hdr" data-bs-parent="#mandatory-collapse">
+                                    <div class="accordion-body">
+                                        The directory in which the results will be stored.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mandatory arguments END-->
+
+            <!-- general settings START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="general-settings-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#general-settings-collapse" aria-expanded="true" aria-controls="general-settings-collapse">
+                        General settings
+                    </button>
+                </h2>
+                <div id="general-settings-collapse" class="accordion-collapse collapse" aria-labelledby="general-settings-hdr"
+                    data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="general-settings-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -p PROJECT_ID, --project-id PROJECT_ID
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-1-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        Name of the project reflecting the name of the run. If not specified it will be
+                                        automatically generated using the current date and time.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-2-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-2-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -sh SHARED_DIRECTORY, --shared-directory SHARED_DIRECTORY
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-2-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-2-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        The directory in which the alignment files are stored. If not specified it will be created
+                                        inside the main output directory.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-3-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-3-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -t THREADS, --threads THREADS
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-3-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-3-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        Maximum number of CPUs to be used. Default=4
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-4-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-4-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -sm, --skip-multi-species
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-4-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-4-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        Skip the creation of multi-species ortholog groups.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-5-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-5-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -nc, --no-compress
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-5-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-5-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        Skip the compression of processed alignment files.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="general-settings-cmd-6-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#general-settings-cmd-6-collapse" aria-expanded="true"
+                                        aria-controls="general-settings-collapse">
+                                        -cl, --compression-lev
+                                    </button>
+                                </h2>
+                                <div id="general-settings-cmd-6-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="general-settings-cmd-6-hdr" data-bs-parent="#general-settings-collapse">
+                                    <div class="accordion-body">
+                                        GZip compression level: integer values between 1 and 9, with 9 and 1 being the highest
+                                        lowest compression levels, respectively. Default=5
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- general settings END-->
+
+            <!-- pairwise-orthology-inference START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="pairwise-orthology-inference-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#pairwise-orthology-inference-collapse" aria-expanded="true"
+                        aria-controls="pairwise-orthology-inference-collapse">
+                        Pairwise orthology inference
+                    </button>
+                </h2>
+                <div id="pairwise-orthology-inference-collapse" class="accordion-collapse collapse"
+                    aria-labelledby="pairwise-orthology-inference-hdr" data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="pairwise-orthology-inference-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -m, --mode {fast, default, sensitive}
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-1-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        SonicParanoid execution mode. The default mode is suitable for most studies. Use sensitive
+                                        if the input proteomes are not closely related.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-2-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-2-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -dmnd, --diamond {fast, mid-sensitive, sensitive, more-sensitive, very-sensitive,
+                                        ultra-sensitive}
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-2-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-2-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Use Diamond with a custom sensitivity. This will bypass the -m (--mode) option.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-3-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-3-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -mmseqs, --mmseqs [1.0 - 7.5]
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-3-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-3-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Use MMseqs2 with a custom sensitivity. This will bypass the -m (--mode) option.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-4-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-4-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -blast, --blast
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-4-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-4-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Use Blastp for all-vs-all alignments. This will bypass the -m (--mode) option.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-5-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-5-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -bs, --min-bitscore
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-5-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-5-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Consider only alignments with bitscores above min-bitscore. Increasing this value can be a
+                                        good idea when comparing very closely related species. Increasing this value will reduce the
+                                        number of paralogs (and orthologs) generate.
+                                        <br>
+                                        WARNING: use only if you are sure of what you are doing.
+                                        <br>
+                                        INFO: min-bitscore can reduce the execution time for all-vs-all when increased. Default=40",
+                                        default=40
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-6-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-6-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -ca, --complete-aln
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-6-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-6-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Perform complete alignments (slower), rathen than essential ones. Default=False
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-7-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-7-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -ml, --max-len-diff
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-7-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-7-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Maximum allowed length-difference-ratio between main orthologs and canditate in-paralogs.
+                                        <br>
+                                        Example: 0.5 means one of the sequences could be 2 times longer than the other; 0 means no
+                                        length difference allowed; 1 means no restriction is applied on length differences Default =
+                                        0.75
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-8-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-8-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -op, --output-pairs
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-8-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-8-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Output a text file with all the pairwise orthologous relationships.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-9-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-9-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -db SEQS_DBS, --seqs-dbs SEQS_DBS
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-9-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-9-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        The directory in which the database files created by the selected local alignment tool will
+                                        be stored. If not specified it will be created inside the main output directory.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="pairwise-orthology-inference-cmd-10-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#pairwise-orthology-inference-cmd-10-collapse" aria-expanded="true"
+                                        aria-controls="pairwise-orthology-inference-collapse">
+                                        -idxdb, --index-db
+                                    </button>
+                                </h2>
+                                <div id="pairwise-orthology-inference-cmd-10-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="pairwise-orthology-inference-cmd-10-hdr"
+                                    data-bs-parent="#pairwise-orthology-inference-collapse">
+                                    <div class="accordion-body">
+                                        Index the MMSeqs2/Diamond databases.
+                                        <br>
+                                        <b>IMPORTANT:</b> this will use more storage but will be slighly faster (5~10%) when
+                                        processing many big proteomes with MMseqs2.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <!-- pairwise-orthology-inference END-->
+
+            <!-- og-inference arguments START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="og-inference-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#og-inference-collapse" aria-expanded="true" aria-controls="og-inference-collapse">
+                        Ortholog groups inference
+                    </button>
+                </h2>
+                <div id="og-inference-collapse" class="accordion-collapse collapse" aria-labelledby="og-inference-hdr"
+                    data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="og-inference-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="og-inference-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#og-inference-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="og-inference-collapse">
+                                        -I, --inflation
+                                    </button>
+                                </h2>
+                                <div id="og-inference-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="og-inference-cmd-1-hdr" data-bs-parent="#og-inference-collapse">
+                                    <div class="accordion-body">
+                                        Affects the granularity of ortholog groups. This value should be between 1.2 (very coarse)
+                                        and 5 (fine grained clustering). Default=1.5
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- og-inference arguments END-->
+
+            <!-- arch-based-inference arguments START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="arch-based-inference-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#arch-based-inference-collapse" aria-expanded="true"
+                        aria-controls="arch-based-inference-collapse">
+                        Arch-based orthology inference
+                    </button>
+                </h2>
+                <div id="arch-based-inference-collapse" class="accordion-collapse collapse"
+                    aria-labelledby="arch-based-inference-hdr" data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="arch-based-inference-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="arch-based-inference-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#arch-based-inference-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="arch-based-inference-collapse">
+                                        -go, --graph-only
+                                    </button>
+                                </h2>
+                                <div id="arch-based-inference-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="arch-based-inference-cmd-1-hdr"
+                                    data-bs-parent="#arch-based-inference-collapse">
+                                    <div class="accordion-body">
+                                        Perform only graph-based orthology (skip architectures analysis).
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="arch-based-inference-cmd-2-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#arch-based-inference-cmd-2-collapse" aria-expanded="true"
+                                        aria-controls="arch-based-inference-collapse">
+                                        --min-arch-merging-cov
+                                    </button>
+                                </h2>
+                                <div id="arch-based-inference-cmd-2-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="arch-based-inference-cmd-2-hdr"
+                                    data-bs-parent="#arch-based-inference-collapse">
+                                    <div class="accordion-body">
+                                        When merging graph- and arch-based orhtologs consider only new-orthologs with a protein
+                                        coverage greater or equal than this value. Default=0.75.
+                                        <br>
+                                        <b>WARNING:</b> generally this value should be changed, use it only if you know what you are
+                                        doing.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- arch-based-inference arguments END-->
+
+            <!-- run-update arguments START-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="run-update-hdr">
+                    <button class="accordion-button  bg-primary text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#run-update-collapse" aria-expanded="true" aria-controls="run-update-collapse">
+                        Run update
+                    </button>
+                </h2>
+                <div id="run-update-collapse" class="accordion-collapse collapse" aria-labelledby="run-update-hdr"
+                    data-bs-parent="#cli-accordion">
+                    <div class="accordion-body">
+            
+                        <div class="accordion" id="run-update-nested-accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="run-update-cmd-1-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#run-update-cmd-1-collapse" aria-expanded="true"
+                                        aria-controls="run-update-collapse">
+                                        -ot, --overwrite-tables
+                                    </button>
+                                </h2>
+                                <div id="run-update-cmd-1-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="run-update-cmd-1-hdr" data-bs-parent="#run-update-collapse">
+                                    <div class="accordion-body">
+                                        This will force the re-computation of the pairwise ortholog tables. Missing alignment files
+                                        will be re-computed (if any).
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="run-update-cmd-2-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#run-update-cmd-2-collapse" aria-expanded="true"
+                                        aria-controls="run-update-collapse">
+                                        -ow, --overwrite
+                                    </button>
+                                </h2>
+                                <div id="run-update-cmd-2-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="run-update-cmd-2-hdr" data-bs-parent="#run-update-collapse">
+                                    <div class="accordion-body">
+                                        Overwrite previous runs and execute it again. This can be useful to update a subset of the
+                                        computed tables.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="run-update-cmd-3-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#run-update-cmd-3-collapse" aria-expanded="true"
+                                        aria-controls="run-update-collapse">
+                                        -rs, --remove-old-species <b>(EXPERIMENTAL)</b>
+                                    </button>
+                                </h2>
+                                <div id="run-update-cmd-3-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="run-update-cmd-3-hdr" data-bs-parent="#run-update-collapse">
+                                    <div class="accordion-body">
+                                        Remove alignments and pairwise ortholog tables related to species used in a previous run.
+                                        <br>
+                                        This option should be used when updating a run in which some input proteomes were modified
+                                        or removed.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="run-update-cmd-4-hdr">
+                                    <button class="accordion-button text-bg-warning" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#run-update-cmd-4-collapse" aria-expanded="true"
+                                        aria-controls="run-update-collapse">
+                                        -un, --update-input-names <b>(EXPERIMENTAL)</b>
+                                    </button>
+                                </h2>
+                                <div id="run-update-cmd-4-collapse" class="accordion-collapse collapse"
+                                    aria-labelledby="run-update-cmd-4-hdr" data-bs-parent="#run-update-collapse">
+                                    <div class="accordion-body">
+                                        Remove alignments and pairwise ortholog tables for an input proteome used in a previous run
+                                        which file name conflicts with a newly added species.
+                                        <br>
+                                        This option should be used when updating a run in which some input proteomes or their file
+                                        names were modified.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- run-update arguments END-->
+
+        </div> <!-- command-line-parameters-accordion END -->
+
+    </div>    <!-- /.container command_line_parameters END -->
+
+    <hr>
+
+    <!-- container license_and_links START -->
+    <div class="container" id="license_and_links">
+
+        <h3 class="display-6 text-center">
+            <i class="bi bi-journal-medical" style="font-size: 34px;"></i>
+             License and Links 
+            <i class="bi bi-link-45deg" style="font-size: 34px;"></i>
+        </h3>
+
+        <!-- row-cols allows the floating when resizing -->
+        <div class="row row-cols-auto g-1 row-cols-md-1">
+    
+            <!--License-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">License (GPLv3)</h5>
+                    <div class="card-body text-left">
+                        <!-- <h5 class="card-title">Special title treatment</h5> -->
+                        <p class="card-text">
+                            Copyright &copy; 2017, Salvatore Cosentino, <a href="http://www.u-tokyo.ac.jp/en/index.html">The University of Tokyo</a> All rights reserved.
+                            <br>
+                            Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3.0 (referred from now on as the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+                            <br>
+                            <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
+                            <br>
+                            Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an <kbd class="text-bg-warning">"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND</kbd>, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+
+        </div><!-- /.row -->
+
+        <div class="row row-cols-auto g-1 mt-1 row-cols-md-2">
+
+            <!--SonicParanoid Links-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Links about Bac2Feature</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+
+                            <a class="btn" href="#" target="_blank">
+                                <img src="assets/python.svg" height="28">
+                                Download the python package from PyPI
+                            </a>
+                            <br>
+                            <a class="btn" href="https://github.com/IwasakiLab/Bac2Feature" target="_blank">
+                                <img src="assets/github-mark.png" height="28">
+                                Source code GitHub
+                            </a>
+                            <br>
+                            <a class="btn" href="#" target="_blank">
+                                <i class="bi bi-journal-richtext" style="font-size: 28px;"></i>
+                                Paper describing B2F
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Orthology Links-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Links about #ResearchFiled of B2F</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            This section might contain links about the fields related to B2F.
+
+                            <a class="btn" href="https://en.wikipedia.org/wiki/Bioinformatics" target="_blank">
+                                <img src="assets/Wikipedia-logo-v2.svg" height="28">
+                                Bioinformatics on Wikipedia
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.row -->
+
+    </div>    <!-- container license_and_links END -->
+
+    <hr>
+
+    <!-- container contacts START -->
+    <div class="container" id="contacts">
+
+        <h3 class="display-6 text-center">
+            <i class="bi bi-person-vcard" style="font-size: 34px;"></i>
+            Contacts 
+            <i class="bi bi-person-vcard" style="font-size: 34px;"></i>
+        </h3>
+
+        <kbd>Add as many contacts as needed...</kbd>
+
+        <div class="row row-cols-auto g-1 mt-1 row-cols-md-2">
+
+            <!--contact Fujiyoshi-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Fujiyoshi Masaki
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            <a class="btn" href="mailto:fujiyoshi-masaki353@g.ecc.u-tokyo.ac.jp">
+                                <i class="bi-envelope-at" style="font-size: 20px;"></i>
+                                fujiyoshi-masaki353@g.ecc.u-tokyo.ac.jp
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--contact Wataru-->
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header text-dark bg-info text-center">Wataru Iwasaki</h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+            
+                            <a class="btn" href="mailto:iwasaki@edu.k.u-tokyo.ac.jp">
+                                <i class="bi-envelope-at" style="font-size: 20px;"></i>
+                                iwasaki@edu.k.u-tokyo.ac.jp
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.row -->
+
+    </div>    <!-- container contacts END -->
+
+
+    <hr>
+
+    <!-- container page_bottom START -->
+    <div class="container" id="page_bottom">
+
+        <div class="row row-cols-3 g-1 mt-1 mb-1">
+
+            <button class="btn btn-danger border-dark-subtle" href="#bac2feature_hdr">
+                Top page<br>
+                <i class="bi bi-chevron-up" style="font-size: 30px;"></i>
+            </button>
+            <button class="btn btn-danger border-dark-subtle" href="#contacts">
+                Contact<br>
+                <i class="bi bi-person-vcard" style="font-size: 30px;"></i>
+            </button>
+            <button class="btn btn-danger border-dark-subtle" href="http://iwasakilab.k.u-tokyo.ac.jp/eindex.html" target="_blank">
+                IWASAKI Lab.<br>
+                <i class="bi bi-house" style="font-size: 30px;"></i>
+            </button>
+
+        </div--><!-- /.row -->
+
+    <!-- bootstrap online import -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+
+    <!-- bootstrap local import -->
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <!-- This import included the JavaScript for the pop-over functionalities -->
+    <!-- <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script> -->
+
+  </body>
+</html>
